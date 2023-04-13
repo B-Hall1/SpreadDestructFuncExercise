@@ -14,9 +14,4 @@ function seeDinos(a, ...b) {
   }
   
   seeCharacters(jPCharacters);
-  
-//   arrowCharacters = ({ alanGrant, ellieSattler, ianMalcolm }) =>
-//     console.log(ellieSattler);
-  
-//   arrowCharacters(jPCharacters);
 
