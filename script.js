@@ -9,8 +9,8 @@ function seeDinos(a, ...b) {
   
   const jPCharacters = { alanGrant: "Sam Neill", ellieSattler: "Laura Dern", ianMalcolm: "Jeff GoldBlum"};
   
-  seeCharacters = () => console.log(jPCharacters.ellieSattler);
+  seeCharacters = ({ellieSattler}) => console.log(ellieSattler);
   
   
-  seeCharacters();
+  seeCharacters(jPCharacters);
 
